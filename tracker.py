@@ -19,7 +19,7 @@ from datetime import datetime
 from playwright.sync_api import sync_playwright
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
-SITE_URL = "https://obxs5premieretracker.com"
+SITE_URL = "https://obx-tracker.vercel.app"
 ALERT_SECRET = "OBX2026"                # ← same as ALERT_SECRET env var
 POLL_INTERVAL_SECONDS = 300                      # check every 5 min
 SEEN_FILE = "seen_listings.json"
